@@ -76,7 +76,6 @@ function displayBooks() {
     }
 }
 
-
 // code to change read status
 function changeRead(arrayCard) {
     let index = 0;
@@ -105,8 +104,6 @@ function changeRead(arrayCard) {
     })
 }
 
-
-
 // function to remove books from the display and the array
 function removeBtn(arrayCard) {
     let index = 0;
@@ -129,9 +126,6 @@ function removeBtn(arrayCard) {
         }
     })
 }
-
-
-
 
 //adding books through user input
 const dialog = document.querySelector("dialog");
